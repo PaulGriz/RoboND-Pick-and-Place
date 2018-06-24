@@ -20,7 +20,7 @@ In a Forward kinematics problem, all the joint variables (the generalized coordi
 
 In an Inverse kinematics problem, the position and orientation of the end effector is known and the goal is to find the joint variables. 
 
-![](.\images\Forward-to-Inverse-Kinematics.png)
+![](Pick-and-Place/images/Forward-to-Inverse-Kinematics.png)
 
 >   The figure (produced by Udacity) above illustrates the difference between Forward & Inverse Kinematics 
 
@@ -40,31 +40,31 @@ Chaining all homogeneous transformations from the base link to the end effector 
 
 ### T0_1:
 
-![](.\diagrams\T0_1.PNG)
+![](Pick-and-Place/diagrams/T0_1.PNG)
 
 ### T1_2:
 
-![](.\diagrams\T1_2.PNG)
+![](Pick-and-Place/diagrams/T1_2.PNG)
 
 ### T2_3:
 
-![](.\diagrams\T2_3.PNG)
+![](Pick-and-Place/diagrams/T2_3.PNG)
 
 ### T3_4:
 
-![](.\diagrams\T3_4.PNG)
+![](Pick-and-Place/diagrams/T3_4.PNG)
 
 ### T4_5
 
-![](.\diagrams\T4_5.PNG)
+![](Pick-and-Place/diagrams/T4_5.PNG)
 
 ### T5_6:
 
-![](.\diagrams\T5_6.PNG)
+![](Pick-and-Place/diagrams/T5_6.PNG)
 
 ### T6_EE:
 
-![](.\diagrams\T6_EE.PNG)
+![](Pick-and-Place/diagrams/T6_EE.PNG)
 
 ---
 
@@ -310,7 +310,7 @@ And we now have numeric values for all six thetas.
 
 Within the simulation, the Kuka arm consistently achieves a 10/10 pick & place accuracy. Below is a screenshot of the arm consecutive placing 11 cylinders:
 
-![](.\images\Result.jpg)
+![](Pick-and-Place/images/Result.jpg)
 
 #### Possible Improvements:
 
